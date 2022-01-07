@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: arial, sans-serif;
+}
+
+#about_me {
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+    width: 70vw;
+    border: solid 2px white;
+    margin-top: 50px;
+    border-radius: 10px;
+    position: relative;
+    top: 12vh;
+}
+
+#titre {
+    text-transform: uppercase;
+}
+
+/*#logiciel {
+    padding: 10px;
+    width: 80vw;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+
+}*/
+
+#section_2 {
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+    width: 70vw;
+    border: solid 2px white;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+#logiciel_2 {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+}
+
+#connaissances {
+    margin-top: 10%;
+    font-size: 0.9rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    
+}
+
+.section_navbar {
+    padding: 10px;
+    border: solid 2px white;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.section_navbar:hover {
+    background-color: white;
+    color: black;
+    
+    
+}
