@@ -39,7 +39,7 @@ body {
 }
 
 body {
-    background: url(img/poster2.png);
+    background: black;
     background-size: cover;
 }
 
@@ -68,7 +68,7 @@ body {
 
     transform-style: preserve-3d;
     animation: spin 9s infinite linear;
-    z-index: ;
+    
 }
 
 .face {
