@@ -78,3 +78,16 @@ body {
     background-color: white;
     text-decoration: none;
 }
+
+
+.video_yt {
+    margin: auto;
+    box-sizing: border-box;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    border: solid 4px white;
+    border-radius: 10px;
+    margin-top: 50px;
+    
+}
