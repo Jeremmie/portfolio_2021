@@ -7,7 +7,7 @@ body {
 .image {
     margin: auto;
     box-sizing: border-box;
-    width: 90vw;
+    width: fit-content;
     display: flex;
     justify-content: center;
     border: solid 4px white;
@@ -88,4 +88,9 @@ body {
 .setup {
     border: solid 2px white;
     border-radius: 10px;
+}
+
+.sketchfabcar {
+    width: 60vw;
+    height: 60vh;
 }
