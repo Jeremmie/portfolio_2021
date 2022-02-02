@@ -217,4 +217,13 @@ body {
       z-index: 1;
   }
 
-  
+  .footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 38vh;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: small;
+    font-weight: 100;
+}
