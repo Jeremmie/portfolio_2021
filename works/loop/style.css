@@ -1,0 +1,48 @@
+*{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+    box-sizing:border-box; 
+    color: white;
+}
+
+
+#retour p {
+    border: solid white 3px;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 20px 30px;
+    color: white;
+    margin: 1%;
+}
+
+#retour p:hover {
+    color: black;
+    background-color: white;
+}
+
+.titre {
+  padding: 2%;  
+  text-align: center;
+  font-size: 2rem;
+}
+
+.loop_yt iframe {
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texte_loop p {
+    font-size: 1.2rem;
+    
+}
+
+.texte_loop {
+    max-width: 40vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0px;
+}
