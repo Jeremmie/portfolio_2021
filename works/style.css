@@ -1,69 +1,104 @@
-body {
+*{
     background-color: black;
-    color: white;
     font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+    box-sizing:border-box; 
+    color: white;
 }
 
-.image {
-    margin: auto;
-    box-sizing: border-box;
-    width: 90vw;
-    display: flex;
-    justify-content: center;
-    border: solid 4px white;
+
+#retour p {
+    border: solid white 3px;
     border-radius: 10px;
-    margin-top: 50px;
+    width: fit-content;
+    padding: 20px 30px;
+    color: white;
+    margin: 1%;
+}
+
+#retour p:hover {
+    color: black;
+    background-color: white;
+}
+
+.titre {
+  padding: 2%;  
+  text-align: center;
+  font-size: 2rem;
+}
+
+.video {
+
+}
+
+.video iframe {
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    min-width: 40%;
+
+    z-index: 2;
+}
+
+.sketchfab iframe {
+    border: solid white 4px;
+    border-radius: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+}
+
+.paragraphe p {
+    font-size: 1.2rem;
+    
+}
+
+.paragraphe {
+    max-width: 40vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0px;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .img {
-    border-radius: 5px;
+    width: 60%;
+    border: solid white 2px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
 }
 
-.section_titre {
+.img_bullet {
     display: flex;
     justify-content: center;
-    text-align: center;
-    padding: 10px;
-    margin: auto;
-    margin-top: 5px;
 }
 
-.texte {
-
-    text-align: center;
-    margin: auto;
-    max-width: 80vw;
-    margin-top: 50px;
-    font-size: 1.2rem;
-}
-
-#retour {
+.img_multiples {
     display: flex;
     justify-content: center;
-    padding: 5px;
-    max-width: 15vw;
-    
-    border-radius: 35px;
-    border: solid 4px white;
-    scale: 40%;
-    margin-left: -4%;
-    margin-top: -2%;
-    color: white;
-    font-size: 200%;
-    font-weight: 1000;
-    text-align: center;
-    vertical-align: middle;
-    text-decoration: none;
+    justify-content: space-around;
+    padding: 20px;
     
 }
 
-.link {
-    color: white;
-    text-decoration: none;
+.reference {
+font-style: italic;
+padding-top: 80px;
 }
 
-#retour:hover {
-    color: black;
-    background-color: white;
-    text-decoration: none;
+.reference a {
+    text-decoration: underline;
+    color: yellow
+}
+
+.liste li a {
+    font-style: italic;
+    text-decoration: underline;
+    color: yellow;
 }

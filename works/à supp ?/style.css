@@ -7,7 +7,7 @@ body {
 .image {
     margin: auto;
     box-sizing: border-box;
-    width: 80%;
+    width: 90vw;
     display: flex;
     justify-content: center;
     border: solid 4px white;
@@ -66,13 +66,4 @@ body {
     color: black;
     background-color: white;
     text-decoration: none;
-}
-
-
-.texte_mep {
-    margin: 50px;
-}
-
-#image_longue {
-    width: 40%;
 }
