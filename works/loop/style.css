@@ -27,11 +27,14 @@
   font-size: 2rem;
 }
 
+
+
 .loop_yt iframe {
     border-radius: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .texte_loop p {
