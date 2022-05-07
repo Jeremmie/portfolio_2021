@@ -41,6 +41,12 @@
     z-index: 2;
 }
 
+@media screen and (max-width: 375px) {
+    .video  iframe{
+        width: 90vw;
+    }
+}
+
 .sketchfab iframe {
     border: solid white 4px;
     border-radius: 10px;
@@ -48,6 +54,13 @@
     margin-right: auto;
     margin-left: auto;
     padding: 20px;
+}
+
+@media screen and (max-width: 375px) {
+    .sketchfab  iframe{
+        width: 90vw;
+        height: 50vh;
+    }
 }
 
 .paragraphe p {
@@ -85,6 +98,21 @@
     justify-content: space-around;
     padding: 20px;
     
+}
+
+@media screen and (max-width: 375px) {
+    .img_multiples {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .img {
+        width: 90vw;
+        
+    }
 }
 
 .reference {
