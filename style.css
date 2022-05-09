@@ -31,10 +31,10 @@ body {
         }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 375px) {
 
 .videoBG {
-    display: none;
+    scale: 300%;
     
 }
 
