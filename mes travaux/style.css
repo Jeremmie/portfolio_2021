@@ -112,3 +112,29 @@ body {
     padding: 20px;
     height: 30px;
 }
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  /* To show the lines on right 
+  and left sides of the text */
+  .divider::after,
+  .divider::before {
+    content: "";
+    border: 1px solid white;
+    flex: 1;
+  }
+  
+  /* Space on left and right sides of text */
+  .divider:not(:empty)::before {
+    margin-right: 0.25em;
+  }
+  
+  .divider:not(:empty)::after {
+    margin-left: 0.25em;
+  }
