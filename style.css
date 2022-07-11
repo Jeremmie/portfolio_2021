@@ -6,7 +6,7 @@
 
 
 body {
-    background-color: #000000;
+    background-color: white;
     
     width: 100vw;
     position: relative;
@@ -39,7 +39,7 @@ body {
 }
 
 body {
-    background: black;
+    background: white;
     background-size: cover;
 }
 
@@ -90,38 +90,38 @@ body {
 }
 
 .top {
-    background: black;
+    background: white;
     transform: rotateX(90deg) translateZ(100px);
-    color: white;
+    color: #575EFF;
 }
 
 .bottom {
-    background: black;
-    color: white;
+    background: white;
+    color: #575EFF;
     transform: rotateX(-90deg) translateZ(100px);
 }
 
 .right {
-    background: black;
-    color: white;
+    background: white;
+    color: #575EFF;
     transform: rotateY(90deg) translateZ(100px);
 }
 
 .left {
-    background: black;
-    color: white;
+    background: white;
+    color: #575EFF;
     transform: rotateY(-90deg) translateZ(100px);
 }
 
 .front {
-    background: black;
-    color: white;
+    background: white;
+    color: #575EFF;
     transform: rotateX(0deg) translateZ(100px);
 }
 
 .back {
-    color: white;
-    background: black;
+    color: #575EFF;
+    background: white;
     transform: rotateX(-180deg) translateZ(100px);
 }
 
@@ -135,8 +135,8 @@ body {
 }
 
 .face:hover {
-    color: #000000;
-    background-color: #ffffff;
+    color: white;
+    background-color: #575EFF;
 }
 
 
@@ -215,6 +215,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: 1;
+      
   }
 
   .footer {

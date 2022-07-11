@@ -6,11 +6,11 @@
 
 body {
     background: rgb(19, 19, 19);
-    color: #fff;
+    color: #575EFF;
     font-family: 'Noto Sans', sans-serif;
     margin: auto;
     max-width: 80vw;
-    background-color: black;
+    background-color: seashell;
     
     
 }
@@ -32,7 +32,7 @@ body {
     border-radius: 4px;
     transition: all 500ms;
     overflow: hidden;
-    border: 2px solid white;
+    /* border: 2px solid #575EFF; */
 
     background-size: cover;
     background-position: center;
@@ -88,20 +88,20 @@ body {
 
 .section_navbar {
     padding: 10px;
-    border: solid 2px white;
+    border: solid 2px #575EFF;
     margin: 10px;
     margin-top: 50px;
     border-radius: 10px;
 }
 
 .link {
-    color: white;
+    color: #575EFF;
     text-decoration: none;
 }
 
 .section_navbar:hover {
-    background-color: white;
-    color: black;
+    background-color: #575EFF;
+    color: seashell;
     
     
 }
@@ -126,7 +126,7 @@ body {
   .divider::after,
   .divider::before {
     content: "";
-    border: 1px solid white;
+    border: 1px solid  #575EFF;
     flex: 1;
   }
   
