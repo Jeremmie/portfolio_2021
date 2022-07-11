@@ -92,35 +92,35 @@ body {
 .top {
     background: white;
     transform: rotateX(90deg) translateZ(100px);
-    color: #575EFF;
+    color: black;
 }
 
 .bottom {
     background: white;
-    color: #575EFF;
+    color: black;
     transform: rotateX(-90deg) translateZ(100px);
 }
 
 .right {
     background: white;
-    color: #575EFF;
+    color: black;
     transform: rotateY(90deg) translateZ(100px);
 }
 
 .left {
     background: white;
-    color: #575EFF;
+    color: black;
     transform: rotateY(-90deg) translateZ(100px);
 }
 
 .front {
     background: white;
-    color: #575EFF;
+    color: black;
     transform: rotateX(0deg) translateZ(100px);
 }
 
 .back {
-    color: #575EFF;
+    color: black;
     background: white;
     transform: rotateX(-180deg) translateZ(100px);
 }
