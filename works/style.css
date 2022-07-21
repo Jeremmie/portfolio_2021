@@ -12,7 +12,7 @@ body {
 .header {
     max-width: 100vw;
     height: 15vh;
-    background-image: url(../img/roll-up/monochromie.png);
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -70,7 +70,7 @@ justify-content: space-between;
     margin-top: 8px;
 }
 
-.video {
+.resultat_video {
     border-radius: 10px;
     margin-top: 3%;
     margin-bottom: 3%;
@@ -174,8 +174,46 @@ justify-content: space-between;
 }
 
 .modal_img {
-    width: 90%;
+    width: 50%;
     height: auto;
     margin: 20px 0px 20px 0px;
 }
 
+.modal_img_legende {
+    width: 50%;
+    height: auto;
+    margin: 20px 0px 20px 0px;
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.modal_video {
+    width: 50%;
+    aspect-ratio: 16/9;
+    margin: 20px 0px 20px 0px;
+}
+
+.footer {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 38vh;
+    font-size: small;
+    font-weight: 100;
+}
+
+.titre{
+    margin-left: 4vw;
+    font-weight: normal;
+    margin-top: 25px;
+    opacity: 40%;
+    
+}
+
+.resultat_img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+    box-shadow: 0px 5px 10px black
+}
