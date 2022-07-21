@@ -31,7 +31,7 @@ body {
         }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 412px) {
 
 .videoBG {
     scale: 300%;
@@ -223,7 +223,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: end;
-    margin-top: 38vh;
+    margin-top: 36vh;
     font-family: Helvetica, Arial, sans-serif;
     font-size: small;
     font-weight: 100;

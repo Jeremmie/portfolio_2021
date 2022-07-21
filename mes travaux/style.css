@@ -138,3 +138,16 @@ body {
   .divider:not(:empty)::after {
     margin-left: 0.25em;
   }
+
+  .footer {
+    color:  #575EFF;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
+    font-weight: 100;
+}
+
+.footer p{
+  text-align: center;
+}

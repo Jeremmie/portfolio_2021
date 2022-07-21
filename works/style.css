@@ -195,12 +195,13 @@ justify-content: space-between;
 
 .footer {
     color: black;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    margin-top: 38vh;
+    margin-bottom: 20px;
     font-size: small;
     font-weight: 100;
+}
+
+.footer p{
+    text-align: center;
 }
 
 .titre{
