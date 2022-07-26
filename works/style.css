@@ -180,8 +180,12 @@ justify-content: space-between;
 
 @media (max-width: 450px) {
     
+    .modal-content {
+        width: 80vw;
+    }
+
     .modal_img {
-        width: 80%;
+        width: 90%;
      }
  
      .modal_video {
@@ -206,6 +210,7 @@ justify-content: space-between;
 
 .modal_video {
     width: 50%;
+    max-width: 100%;
     aspect-ratio: 16/9;
     margin: 20px 0px 20px 0px;
 }
