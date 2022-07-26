@@ -169,13 +169,25 @@ justify-content: space-between;
     margin: 20px 0px 20px 0px;
 }
 
-@media (max-width: 412px) {
+@media (max-width: 450px) {
     .griditem_none {
         display: none;
     }
     .griditem {
-        max-width: 80%;
+        max-width: 80vw;
     }
+}
+
+@media (max-width: 450px) {
+    
+    .modal_img {
+        width: 80%;
+     }
+ 
+     .modal_video {
+         width: 80%;
+         
+     }
 }
 
 .modal_img {
