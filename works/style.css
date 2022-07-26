@@ -223,3 +223,45 @@ justify-content: space-between;
     width: 70%;
     box-shadow: 0px 5px 10px black
 }
+
+/* modal before/after (credits: https://codepen.io/solygambas/pen/RwoMLYW) */
+
+ 
+  .modal_container {
+    position: relative;
+    width: 60vw;
+    height: 80vh;
+  }
+  
+  .img-container-before,
+  .img-container-after {
+    position: absolute;
+    width: 60vw;
+    height: 80vh;
+  }
+  
+  .img-container-before {
+    width: 30vw;
+    overflow: hidden;
+  }
+  
+  img {
+    width: 60vw;
+    height: 80vh;
+    object-fit: cover;
+  }
+  
+  .slider {
+    width: 0.5rem;
+    background: white;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    pointer-events: none;
+  }
+  
+
+/* modal before/after (credits: https://codepen.io/solygambas/pen/RwoMLYW) */
