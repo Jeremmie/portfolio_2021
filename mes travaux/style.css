@@ -174,7 +174,7 @@ body {
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80vw;
+  width: 90vw;
 }
 
 /* The Close Button */
@@ -221,8 +221,13 @@ body {
   aspect-ratio: 16/9;
 }
 
+.modal_credit_titre {
+  color: black;
+  margin-top: 70px;
+}
+
 .modal_credit {
   margin-left: 5%;
-  color: #575EFF;
+  color: black;
 }
 /* modal */
