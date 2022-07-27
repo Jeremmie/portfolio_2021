@@ -174,11 +174,11 @@ justify-content: space-between;
         display: none;
     }
     .griditem {
-        max-width: 80vw;
+        width: 90%;
     }
 }
 
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
     
     .modal-content {
         width: 80vw;
@@ -189,10 +189,11 @@ justify-content: space-between;
      }
  
      .modal_video {
-         width: 80%;
-         
+         width: 80%;   
      }
 }
+
+
 
 .modal_img {
     width: 50%;

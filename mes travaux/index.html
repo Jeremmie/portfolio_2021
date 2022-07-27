@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Works</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -28,7 +33,7 @@
     </div>
 
     <div class="div_titre">
-        <h1 class="titre">Works</h1>
+        <h1 class="titre">Mes Travaux</h1>
     </div>
 
     <div class="photo-grid">
@@ -52,19 +57,16 @@
             </div>
         </a>
 
-        
 
-        
+
+
 
         <a href="../works/loop/index.html" class="card-tall card-wide">
             <div class="card card-tall card-wide " style="background-image:url('../img_resize/loop.png')">
             </div>
         </a>
 
-        <a href="../works/packshot/index.html" class="card-wide">
-            <div class="card card-wide " style="background-image:url('../img_resize/packshot_miniature.png')">
-            </div>
-        </a>
+
 
         <a href="../works/madison/index.html" class="card-wide">
             <div class="card card-wide" style="background-image:url('../img_resize/madison.png')">
@@ -82,13 +84,40 @@
 
     <div class="photo-grid">
 
-        <a href="../works/ASCII/index.html">
-            <div class="card" style="background-image:url('../img_resize/carre_resize.png')">
+        <!-- ASCII -->
+        <div id="myBtn0" class="card" style="background-image:url('../img_resize/carre_resize.png')">
+        </div>
+
+
+        <div id="myModal0" class="modal">
+
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p class="modal_titre">projet: ASCII</p>
+                <p class="modal_text">Ce travail consite à faire un outil qui transforme une vidéo en caractères ASCII.
+                </p>
+                <img src="../img/vinyle/vinyle_3D.png" alt="test" class="modal_img">
+                <video src="../img/works_modal/modal_0/ascii_run.mp4" class="modal_video" muted loop autoplay></video>
+                <div class="sketchfab-embed-wrapper"> <iframe class="modal_sketchfab" title="Low poly dolorean"
+                        frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
+                        allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+                        execution-while-out-of-viewport execution-while-not-rendered web-share
+                        src="https://sketchfab.com/models/f7bf1246d6e14dbbaca4b4687f5e679e/embed"> </iframe> </div>
+                <li class="modal_credit">
+                    <ul>gros bigup a toi bg</ul>
+                </li>
+
+            </div>
+        </div>
+        <!-- ASCII -->
+
+        <a href="../works/packshot/index.html" class="card-wide">
+            <div class="card card-wide " style="background-image:url('../img_resize/packshot_miniature.png')">
             </div>
         </a>
 
-        <a href="../works/london class/index.html" class="card-wide">
-            <div class="card card-wide " style="background-image:url('../img_resize/knucks.png')">
+        <a href="../works/london class/index.html" class="card">
+            <div class="card" style="background-image:url('../img_resize/knucks.png')">
             </div>
         </a>
 
@@ -114,8 +143,8 @@
             </div>
         </a>
 
-        <a href="../works/geometry/index.html" class="card-wide">
-            <div class="card card-wide" style="background-image:url('../img_resize/geometry_resize.png')">
+        <a href="../works/geometry/index.html" class="card">
+            <div class="card" style="background-image:url('../img_resize/geometry_resize.png')">
             </div>
         </a>
 
@@ -126,8 +155,8 @@
 
 
 
-        <a href="../works/projet we/index.html" class="card-tall">
-            <div class="card card-tall" style="background-image:url('../img_resize/we_resize.png')">
+        <a href="../works/projet we/index.html" class="card">
+            <div class="card" style="background-image:url('../img_resize/we_resize.png')">
             </div>
         </a>
 
@@ -142,6 +171,8 @@
         <p>Copyright © 2022 Jérémie Jaouen touts droits résérvés</p>
     </footer>
 
+
+    <script src="script.js"></script>
 </body>
 
 </html>
