@@ -230,4 +230,8 @@ body {
   margin-left: 5%;
   color: black;
 }
+
+.modal_credit li{
+  margin-top: 20px;
+}
 /* modal */
