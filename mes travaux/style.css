@@ -214,6 +214,7 @@ body {
 
 .modal_video {
   width: 90%;
+  aspect-ratio: 16/9;
 }
 
 .modal_sketchfab {
