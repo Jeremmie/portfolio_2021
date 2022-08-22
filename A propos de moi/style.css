@@ -290,3 +290,21 @@ justify-content: space-between;
   
 
 /* modal before/after (credits: https://codepen.io/solygambas/pen/RwoMLYW) */
+
+
+.menu_2 {
+    background-color: seashell;
+    height: fit-content;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    border-radius: 50px;
+    opacity: 50%;
+
+}
+
+
+
+.menu_2 p{
+    padding: 10px 10px 5px 5px;
+    border-radius: 5px;
+}
