@@ -2,10 +2,10 @@ class Hover3D {
     constructor(id) {
         this.id = id;
         this.xOffset = 10;
-        this.yOffset = 10;
+        this.yOffset = 2;
         this.attack = 0.1;
         this.release = 0.5;
-        this.perspective = 500;
+        this.perspective = 1000;
         this.create();
     }
 
