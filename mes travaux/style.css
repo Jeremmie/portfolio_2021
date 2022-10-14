@@ -43,6 +43,7 @@ body {
 .card:hover {
     box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
     transform: translateY(-3px) scale(1.1);
+    
  }
 
  .card_PP {
@@ -289,3 +290,40 @@ body {
   margin-top: 20px;
 }
 /* modal */
+
+.tag {
+  display: block;
+  margin: 10px auto auto 10px;
+  font-size: 0.9rem;
+  padding: 5px 10px 5px 10px;
+  border-radius: 50px; 
+}
+
+a {
+  text-decoration: none;
+}
+
+.animation {
+  background-color: #ffc43d;
+  color: black;
+}
+
+.video_game {
+  background-color: #ef476f;
+  color: black;
+}
+
+.photographie {
+  background-color: #1b9aaa;
+  color: black;
+}
+
+.video {
+  background-color: #06d6a0;
+  color: black;
+}
+
+.illustration {
+  background-color: #f8ffe5;
+  color: black;
+}
