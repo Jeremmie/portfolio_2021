@@ -134,6 +134,7 @@ justify-content: space-between;
     scale: 110%;
     transition: 50ms;
     cursor: pointer;
+    
 }
 
 /* The Modal (background) */
@@ -270,6 +271,21 @@ justify-content: space-between;
     height: 80vh;
   }
   
+  .modal_credit_titre {
+    color: black;
+    margin-top: 70px;
+  }
+  
+  .modal_credit {
+    margin-left: 5%;
+    color: black;
+    
+  }
+  
+  .modal_credit li{
+    margin-top: 20px;
+  }
+
   .img-container-before,
   .img-container-after {
     position: absolute;
