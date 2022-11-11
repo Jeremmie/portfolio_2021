@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: seashell;
+}
+
+.webgl
+{
+    position: fixed ;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+
+.section
+{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+    color: #575EFF;
+    text-transform: uppercase;
+    font-size: 7vmin;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.section1
+{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+    color: #575EFF;
+    
+    font-size: 7vmin;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.section
+{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+    color: #575EFF;
+    text-transform: uppercase;
+    font-size: 7vmin;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.section1 h1{
+    text-transform: uppercase;
+}
+
+.section2 a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    
+    border: solid 2px #575EFF;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    color: #575EFF;
+    white-space: nowrap;
+    margin-bottom: 50px;
+}
+
+.section2 h2{
+    margin-bottom: 50px;
+}
+
+.section2 a:hover{
+    color: white;
+    background: #575EFF;
+    
+}
+
+
+.section1 p{
+    font-size: 2rem;
+    width: 40vw;
+    margin-top: 20px;
+}
+
+@media (max-width: 50rem) {
+    .section1 p{
+        width: 90vw;
+    }
+
+}
+
+
+section:nth-child(odd)
+{
+    justify-content: flex-end;
+}
+
+/*# sourceMappingURL=main.css.map*/
