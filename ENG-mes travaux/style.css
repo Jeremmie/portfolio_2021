@@ -111,7 +111,6 @@ body {
     display: flex;
     justify-content: end;
     width: 90vw;
-    
 }
 
 
@@ -323,5 +322,10 @@ a {
 
 .illustration {
   background-color: #f8ffe5;
+  color: black;
+}
+
+.web {
+  background-color: #c3c7f7;
   color: black;
 }
