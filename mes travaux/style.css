@@ -112,8 +112,10 @@ body {
   .navbar {
     display: flex;
     justify-content: end;
-    
+    width: 90vw;
 }
+
+
 
 
 
@@ -152,6 +154,8 @@ body {
     color: #575EFF;
     text-decoration: none;
 }
+
+
 
 .section_navbar:hover {
     background-color: #575EFF;
