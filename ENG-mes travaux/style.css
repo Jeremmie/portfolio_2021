@@ -110,6 +110,7 @@ body {
   .navbar {
     display: flex;
     justify-content: end;
+    width: 90vw;
     
 }
 
