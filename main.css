@@ -47,6 +47,10 @@ html {
     padding-right: 10%;
 }
 
+
+
+
+
 .section
 {
     display: flex;
@@ -78,6 +82,7 @@ html {
     color: #575EFF;
     white-space: nowrap;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .section2 h2{
@@ -100,6 +105,12 @@ html {
 @media (max-width: 50rem) {
     .section1 p{
         width: 90vw;
+    }
+
+    .section2 a{
+        display: flex;
+        text-align: center;
+        justify-content: center;
     }
 
 }
