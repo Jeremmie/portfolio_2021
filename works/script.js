@@ -35,7 +35,7 @@ const traductionAnglaise = document.querySelector('#traduction_anglaise')
 
 boutonTraductionAnglaise.addEventListener('click', function () {
 
-  traductionAnglaise.innerHTML = "I'm learning how to use the library <a href=https://threejs-journey.com/>three.js</a>, to add 3D to my web pages. These examples may look familiar to you, that's because I'm following Bruno Simon's training: <a href=https://threejs-journey.com/ </a> Three JS journey.";
+  traductionAnglaise.innerHTML = "I'm learning how to use the library <a href=https://threejs.org//>three.js</a>, to add 3D to my web pages. These examples may look familiar to you, that's because I'm following Bruno Simon's training: <a href=https://threejs-journey.com/ </a> Three JS journey.";
   boutonTraductionAnglaise.style.textDecoration = "underline";
   boutonTraductionFr.style.textDecoration = "none";
 })
